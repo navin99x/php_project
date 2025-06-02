@@ -30,23 +30,23 @@ $data=mysqli_fetch_assoc($run);
     <table align="center" border="1" style="width:70%; margin-top:40px;">
         <tr>
             <th>Roll No</th>
-            <td><input type="text" name="rollno" value=<?php echo $data['rollno'] ?> required></td>
+            <td><input type="text" name="rollno" value="<?php echo $data['rollno'] ?>" required></td>
         </tr>
         <tr>
             <th>Full Name</th>
-            <td><input type="text" name="name" value=<?php echo $data['name'] ?> required></td>
+            <td><input type="text" name="name" value="<?php echo $data['name'] ?>" required></td>
         </tr>
         <tr>
             <th>City</th>
-            <td><input type="text" name="city" value=<?php echo $data['city'] ?> required></td>
+            <td><input type="text" name="city" value="<?php echo $data['city'] ?>" required></td>
         </tr>
         <tr>
             <th>Parents Contact no.</th>
-            <td><input type="text" name="pcon" value=<?php echo $data['pcont'] ?> required></td>
+            <td><input type="text" name="pcon" value="<?php echo $data['pcont'] ?>" required></td>
         </tr>
         <tr>
             <th>Standard</th>
-            <td><input type="number" name="standard" value=<?php echo $data['standard'] ?> required></td>
+            <td><input type="number" name="standard" value="<?php echo $data['standard'] ?>" required></td>
         </tr>
         <tr>
             <th>Image</th>

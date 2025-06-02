@@ -1,6 +1,6 @@
 <?php
 
-	$con = mysqli_connect('localhost','root','','sms');
+	$con = mysqli_connect('localhost','root','root','student_management');
 
 	if($con == false){
 		echo "Connection not successful";

@@ -17,9 +17,13 @@ function showdetails($standard,$rollno){
             </tr>
             <tr>
                 <td rowspan="5"><img src="dataimg/<?php echo $data['image']; ?>"/></td>
-                <th>Roll No</th>
-                <td align="center"><?php echo $data['rollno'] ?></td>
+                <th>Standard</th>
+                <td align="center"><?php echo $data['standard'] ?></td>
                 
+           </tr>
+           <tr>
+                <th>Roll NO</th>
+                <td align="center"><?php echo $data['rollno'] ?></td>
            </tr>
             <tr>
                 <th>Name</th>
@@ -32,10 +36,6 @@ function showdetails($standard,$rollno){
             <tr>
                 <th>Parents Contact no.</th>
                 <td align="center"><?php echo $data['pcont'] ?> </td>
-            </tr>
-            <tr>
-                <th>Standard</th>
-                <td align="center"><?php echo $data['standard'] ?> </td>
             </tr>
             
 

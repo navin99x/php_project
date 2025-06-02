@@ -1,10 +1,7 @@
 <?php
 
-$con = mysqli_connect('localhost','root','','sms');
+include('../dbcon.php');
 
-	if($con == false){
-		echo "Connection not successful";
-	}
     $rollno = $_POST['rollno'];
     $name = $_POST['name'];
     $city = $_POST['city'];
@@ -23,12 +20,8 @@ $con = mysqli_connect('localhost','root','','sms');
     $run = mysqli_query($con,$qry);
     
     if($run == true){
-        ?>
-        <script>
-            alert('Data Updated Successfully');
-            window.open('updateform.php?sid=<?php echo $id;?>','self');
-        </script>
-        <?php
+        echo '<script>alert("Data Updated Successfully"); window.location.href = "updatestudent.php";</script>';
+        exit();
     }
 
 ?>

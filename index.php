@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset ="UTF-8">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="jquery-3.3.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title> Student Management System</title>
@@ -9,7 +9,12 @@
     </head>
     <body>
         
-        <h3 align="right"><a href="login.php">Admin Login</a></h3>
+        <div style="text-align:right; margin: 18px 40px 0 0;">
+    <a href="login.php" style="display:inline-flex; align-items:center; gap:10px; background:#fff; color:#7209b7; border:2px solid #7209b7; padding:10px 26px; border-radius:22px; font-weight:700; font-size:1.08em; letter-spacing:1.1px; box-shadow:0 2px 10px rgba(114,9,183,0.10); text-shadow:none; text-decoration:none; transition:background 0.2s, color 0.2s, box-shadow 0.2s;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" fill="#7209b7"/><path d="M12 12c1.656 0 3-1.344 3-3s-1.344-3-3-3-3 1.344-3 3 1.344 3 3 3zm0 2c-2.67 0-8 1.336-8 4v2h16v-2c0-2.664-5.33-4-8-4z" fill="#fff"/></svg>
+        Admin Login
+    </a>
+</div>
         <h1 align="center"> Welcome To Student Management System</h1>
         
         
