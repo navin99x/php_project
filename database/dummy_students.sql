@@ -91,11 +91,11 @@ INSERT INTO student (rollno, name, city, pcont, standard, image) VALUES
 
 -- Insert dummy data for Standard 8 (Roll numbers 1-10)
 INSERT INTO student (rollno, name, city, pcont, standard, image) VALUES
-('1', 'Ashok Thapa', 'Pokhara', '9841234637', '8', 'img71.jpg'),
-('2', 'Bindu Malla', 'Lalitpur', '9841234638', '8', 'img72.jpg'),
-('3', 'Devraj Shakya', 'Bhaktapur', '9841234639', '8', 'img73.jpg'),
-('4', 'Ganga Lama', 'Chitwan', '9841234640', '8', 'img74.jpg'),
-('5', 'Indra Pradhan', 'Butwal', '9841234641', '8', 'img75.jpg'),
+('1', 'Ashok Thapa', 'Pokhara', '9841234637', '8', 'img71.avif'),
+('2', 'Bindu Malla', 'Lalitpur', '9841234638', '8', 'img72.avif'),
+('3', 'Devraj Shakya', 'Bhaktapur', '9841234639', '8', 'img73.avif'),
+('4', 'Ganga Lama', 'Chitwan', '9841234640', '8', 'img74.avif'),
+('5', 'Indra Pradhan', 'Butwal', '9841234641', '8', 'img75.avif'),
 ('6', 'Kalpana Tuladhar', 'Biratnagar', '9841234642', '8', 'img76.jpg'),
 ('7', 'Mahesh Upreti', 'Dharan', '9841234643', '8', 'img77.jpg'),
 ('8', 'Nanda Sapkota', 'Hetauda', '9841234644', '8', 'img78.jpg'),
